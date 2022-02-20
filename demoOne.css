@@ -1,0 +1,134 @@
+/*Sectionone*/
+.sectionone{
+	background-image: url(https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1034&q=80);
+	background-size: cover;
+	width: auto;
+	height: 120vh;
+	/*z-index: 1;*/
+	/*position: relative;*/
+
+}
+.navbar{
+	height: 80px;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+
+
+}
+.list{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	font-size: 30px;
+
+
+}
+.list li a{
+	color: white;
+	text-decoration: none;
+}
+.mainbody{
+	font-size: 40px;
+	text-align: center;
+
+}
+.mainbody h1{
+	padding: 90px;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*SectionTwo*/
+.imageone{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+/*	margin: 10px;*/
+	
+
+}
+.imagetwo{
+	border: 2px solid black;
+	margin: 10px;
+
+}
+.sectiontwo{
+	margin-top: 100px;
+
+}
+.imagetwo p{
+	text-align: center;
+}
+/*SectionTwo*/
+.review{
+	display: inline-flex;
+	border: 2px solid black;
+	margin: 10px;
+}
+.reviewimage{
+	float: left;
+	width: 400px;
+	height: 450px;
+	margin: 10px;
+
+}
+.reviewblog{
+	/*float: right;*/
+}
+.sectiononebutton{
+	padding: 50px 200px 10px 600px;
+	width: 100px;
+	height: 50px;
+}
+.button{
+	width: 300px;
+	height: 50px;
+}
+
+/*Footer*/
+.footer{
+	width: auto;
+	/*display:flex;
+	align-items: left;*/
+	background-color: floralwhite;
+}
+.copyright{
+	padding: 20px 200px 10px 600px;
+}
+
+.img-bg {
+    position: relative;
+    margin: 300px;
+    width: 400px;
+}
+
+.img-bg::before {
+    content: "";
+    background-image: url(cafe.jfif);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    left: -120px;
+    top: -30px;
+}
+.speech{
+    position: relative;
+    padding: 30px;
+    max-width: 500px;
+    background: #add8e6;
+    margin: auto;
+}
+
+.speech::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: -30px;
+    width: 0;
+    border-width: 30px 30px 0;
+    border-style: solid;
+    border-color: #add8e6 transparent;
+}
